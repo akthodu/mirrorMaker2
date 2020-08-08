@@ -11,7 +11,7 @@ public class SampleConsumer{
             
             String groupName = "RG";
             Properties props = new Properties();
-            props.put("bootstrap.servers", "pc011.fyre.ibm.com:9092");
+            props.put("bootstrap.servers", "host11:9092");
             props.put("group.id", groupName);
           //  props.put("client.id", "sourceConsumer");
             props.put("key.deserializer", "org.apache.kafka.common.serialization.StringDeserializer");
