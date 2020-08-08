@@ -17,7 +17,7 @@ public class SampleProducer extends Thread {
 	private final String topic;
 	private final Boolean isAsync;
 
-	public static final String KAFKA_SERVER_URL = "pc011.fyre.ibm.com";
+	public static final String KAFKA_SERVER_URL = "host11";
 	public static final int KAFKA_SERVER_PORT = 9092;
 	public static final String CLIENT_ID = "SampleProducer";
 
