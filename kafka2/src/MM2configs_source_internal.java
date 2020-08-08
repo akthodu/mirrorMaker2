@@ -12,7 +12,7 @@ public class MM2configs_source_internal{
             
             String groupName = "RG";
             Properties props = new Properties();
-            props.put("bootstrap.servers", "pc021.fyre.ibm.com:9092");
+            props.put("bootstrap.servers", "host21:9092");
             props.put("group.id", groupName);
             props.put("key.deserializer", "org.apache.kafka.common.serialization.StringDeserializer");
             props.put("value.deserializer", "org.apache.kafka.common.serialization.StringDeserializer");
