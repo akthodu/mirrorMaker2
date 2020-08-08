@@ -9,7 +9,7 @@ public class simpleProducer {
 	  String value = "Value-1";
       
       Properties props = new Properties();
-      props.put("bootstrap.servers", "pc011.fyre.ibm.com:9092");
+      props.put("bootstrap.servers", "host11:9092");
       props.put("key.serializer","org.apache.kafka.common.serialization.StringSerializer");         
       props.put("value.serializer", "org.apache.kafka.common.serialization.StringSerializer");
 	        
